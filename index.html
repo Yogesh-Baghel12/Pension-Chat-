@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Website Layout | CodingLab</title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+   </head>
+<body>
+    <script src="//code.tidio.co/rczlhvitkmkgtkgmzyokl01czjmf4tao.js" async>
+        setTimeout(function () {
+            var tidioScript = document.createElement('script');
+            tidioScript.src = '//code.tidio.co/PUBLIC_KEY.js';
+            document.body.appendChild(tidioScript);
+        }, 5 * 1000);
+
+        (function () {
+            function onTidioChatApiReady() {
+                window.tidioChatApi.open();
+            }
+            if (window.tidioChatApi) {
+                window.tidioChatApi.on('ready', onTidioChatApiReady);
+            } else {
+                document.addEventListener('tidioChat-ready', onTidioChatApiReady);
+            }
+        })();
+        document.tidioChatLang = document.querySelector('html').getAttribute('lang');
+        document.tidioChatLang = 'es';
+    </script>
+    
+    <nav>
+        <div class="menu">
+          <div class="logo">
+            <a href="#">Pension Check and Detail</a>
+          </div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="img"></div>
+      <div class="center">
+        <div class="title">Helping ARMY People </div>
+        <div class="sub_title">Pension</div>
+        <div class="btns">
+        
+        </div>
+      </div>
+
+
+</body>
+</html>
